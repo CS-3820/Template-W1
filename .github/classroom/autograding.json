@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {"name" : "Problem 1", "setup" : "", "run" : "./check.sh scripts/simpleline.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 2", "setup" : "", "run" : "./check.sh scripts/simpleshape.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 3", "setup" : "", "run" : "./check.sh scripts/twoshapes.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 4", "setup" : "", "run" : "./check.sh scripts/ifelsetest1.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 5", "setup" : "", "run" : "./check.sh scripts/names.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 6", "setup" : "", "run" : "./check.sh scripts/lines.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 7", "setup" : "", "run" : "./check.sh scripts/rays.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 8", "setup" : "", "run" : "./check.sh scripts/rays2.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 }
+  ]
+}

@@ -1,0 +1,9 @@
+% This tests the handling of executable vs. literal names
+% /add here is a literal name!
+
+10 setlinewidth
+10 10 moveto
+
+10 10 % false coordinate, should never be used
+100 200 /add pop lineto
+stroke

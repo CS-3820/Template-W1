@@ -1,0 +1,28 @@
+1 % initial counter
+11 {
+newpath
+
+dup    % duplicate counter
+2 mul  % linewidth is 2 * counter 
+setlinewidth  % consumes duplicted value!
+
+dup
+
+1 sub
+42 mul 42 add % x coordinate: (counter - 1) * 42 + 42
+
+30 % y coordinate
+moveto
+
+dup
+
+1 sub
+42 mul 42 add
+
+512 30 sub % y coordinate 512 - 30
+lineto
+
+stroke
+
+1 add % increment counter
+} repeat
