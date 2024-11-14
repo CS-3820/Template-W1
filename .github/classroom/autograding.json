@@ -7,6 +7,8 @@
     {"name" : "Problem 5", "setup" : "", "run" : "./check.sh scripts/names.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
     {"name" : "Problem 6", "setup" : "", "run" : "./check.sh scripts/lines.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
     {"name" : "Problem 7", "setup" : "", "run" : "./check.sh scripts/rays.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
-    {"name" : "Problem 8", "setup" : "", "run" : "./check.sh scripts/rays2.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 }
+    {"name" : "Problem 8", "setup" : "", "run" : "./check.sh scripts/rays2.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 9", "setup" : "", "run" : "./check.sh scripts/ifelsetest2.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 },
+    {"name" : "Problem 10", "setup" : "", "run" : "./check.sh scripts/ifelsetest3.ps", "input" : "", "output" : "", "comparison" : "included", "timeout" : 0.5, "points" : 1 }
   ]
 }
