@@ -4,8 +4,8 @@ FILE=$1
 
 BN=`basename $FILE`
 
-OUT=${fi%%.*}.png
-REF=ref/${fi%%.*}.png
+OUT=${BN%%.*}.png
+REF=ref/${BN%%.*}.png
 
 cabal run postscript -- $FILE $OUT
 if [[ $? -ne 0 ]]; then
